@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class DinerMenu
+Partial Class DinerMenuForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -27,7 +27,7 @@ Partial Class DinerMenu
         Me.CompileTunaButton = New System.Windows.Forms.Button()
         Me.VBLTButton = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.menuLabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'LateNightButton
@@ -76,21 +76,21 @@ Partial Class DinerMenu
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "VB's Subs"
         '
-        'Label2
+        'menuLabel
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(268, 179)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Label2"
+        Me.menuLabel.Font = New System.Drawing.Font("Audi Type", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.menuLabel.Location = New System.Drawing.Point(157, 135)
+        Me.menuLabel.Name = "menuLabel"
+        Me.menuLabel.Size = New System.Drawing.Size(508, 185)
+        Me.menuLabel.TabIndex = 6
+        Me.menuLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'DinerMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.menuLabel)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.VBLTButton)
         Me.Controls.Add(Me.CompileTunaButton)
@@ -108,5 +108,5 @@ Partial Class DinerMenu
     Friend WithEvents CompileTunaButton As Button
     Friend WithEvents VBLTButton As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
+    Friend WithEvents menuLabel As Label
 End Class
