@@ -9,12 +9,12 @@ Public Class DinerMenuForm
 
 
     Private Sub LateNightButton_Click(sender As Object, e As EventArgs) Handles LateNightButton.Click
-        menuLabel.Text = "Salami, Capicola, ham, cheese, onion, oil & vinegar and oregano-basil"
+        menuLabel.Text = "Salami, Capicola, ham, cheese, onion, oil & vinegar and oregano-basil, served on your choice of; Rosemary Chibatta, basil infued wrap or garlic and oregano flatbread"
 
     End Sub
 
     Private Sub TheVisualBasicButton_Click(sender As Object, e As EventArgs) Handles TheVisualBasicButton.Click
-        menuLabel.Text = "ham and cheese"
+        menuLabel.Text = "ham and cheese served on a 6Inch Classic french Bread"
 
     End Sub
 
