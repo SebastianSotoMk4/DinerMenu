@@ -71,7 +71,7 @@ Partial Class DinerMenuForm
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Audi Type", 48.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(228, 30)
+        Me.Label1.Location = New System.Drawing.Point(243, 30)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(323, 78)
         Me.Label1.TabIndex = 4
@@ -80,7 +80,7 @@ Partial Class DinerMenuForm
         'menuLabel
         '
         Me.menuLabel.Font = New System.Drawing.Font("Audi Type", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.menuLabel.Location = New System.Drawing.Point(157, 135)
+        Me.menuLabel.Location = New System.Drawing.Point(128, 126)
         Me.menuLabel.Name = "menuLabel"
         Me.menuLabel.Size = New System.Drawing.Size(508, 185)
         Me.menuLabel.TabIndex = 6
