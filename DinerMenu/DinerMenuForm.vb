@@ -10,28 +10,22 @@ Public Class DinerMenuForm
 
     Private Sub LateNightButton_Click(sender As Object, e As EventArgs) Handles LateNightButton.Click
         menuLabel.Text = "Salami, Capicola, ham, cheese, onion, oil & vinegar and oregano-basil, served on your choice of; Rosemary Chibatta, basil infued wrap or garlic and oregano flatbread"
-
     End Sub
 
     Private Sub TheVisualBasicButton_Click(sender As Object, e As EventArgs) Handles TheVisualBasicButton.Click
         menuLabel.Text = "ham and cheese served on a 6Inch Classic french Bread"
-
     End Sub
 
     Private Sub CompileTunaButton_Click(sender As Object, e As EventArgs) Handles CompileTunaButton.Click
-        menuLabel.Text = "Tuna salad, double cheese & cucumber (no mayo*)"
-
+        menuLabel.Text = "Tuna salad, double cheese & cucumber, served on your choice of Fresh baked french bread, whole wheat or in a pitta pocket "
     End Sub
 
     Private Sub VBLTButton_Click(sender As Object, e As EventArgs) Handles VBLTButton.Click
 
         menuLabel.Text = "Vienna sausages with Bacon Lettuce and tomato, served on freshly baked french bread or whole wheat"
-
-        'MsgBox("Vienna sausages with Bacon Lettuce and tomato")
     End Sub
 
-    Private Sub menuLabel_Click(sender As Object, e As EventArgs) Handles menuLabel.Click
-        menuLabel.Text = "food"
+    Private Sub DinerMenuForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

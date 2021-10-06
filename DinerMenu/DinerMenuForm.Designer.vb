@@ -28,29 +28,30 @@ Partial Class DinerMenuForm
         Me.VBLTButton = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.menuLabel = New System.Windows.Forms.Label()
+        Me.exitButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'LateNightButton
         '
-        Me.LateNightButton.Location = New System.Drawing.Point(12, 380)
+        Me.LateNightButton.Location = New System.Drawing.Point(12, 378)
         Me.LateNightButton.Name = "LateNightButton"
-        Me.LateNightButton.Size = New System.Drawing.Size(125, 60)
+        Me.LateNightButton.Size = New System.Drawing.Size(116, 60)
         Me.LateNightButton.TabIndex = 0
         Me.LateNightButton.Text = "Late Night Club"
         Me.LateNightButton.UseVisualStyleBackColor = True
         '
         'TheVisualBasicButton
         '
-        Me.TheVisualBasicButton.Location = New System.Drawing.Point(192, 380)
+        Me.TheVisualBasicButton.Location = New System.Drawing.Point(134, 378)
         Me.TheVisualBasicButton.Name = "TheVisualBasicButton"
-        Me.TheVisualBasicButton.Size = New System.Drawing.Size(180, 60)
+        Me.TheVisualBasicButton.Size = New System.Drawing.Size(116, 60)
         Me.TheVisualBasicButton.TabIndex = 1
         Me.TheVisualBasicButton.Text = "The Visual Basic"
         Me.TheVisualBasicButton.UseVisualStyleBackColor = True
         '
         'CompileTunaButton
         '
-        Me.CompileTunaButton.Location = New System.Drawing.Point(395, 380)
+        Me.CompileTunaButton.Location = New System.Drawing.Point(256, 378)
         Me.CompileTunaButton.Name = "CompileTunaButton"
         Me.CompileTunaButton.Size = New System.Drawing.Size(116, 60)
         Me.CompileTunaButton.TabIndex = 2
@@ -59,9 +60,9 @@ Partial Class DinerMenuForm
         '
         'VBLTButton
         '
-        Me.VBLTButton.Location = New System.Drawing.Point(533, 380)
+        Me.VBLTButton.Location = New System.Drawing.Point(378, 378)
         Me.VBLTButton.Name = "VBLTButton"
-        Me.VBLTButton.Size = New System.Drawing.Size(159, 60)
+        Me.VBLTButton.Size = New System.Drawing.Size(116, 60)
         Me.VBLTButton.TabIndex = 3
         Me.VBLTButton.Text = "V.B.L.T"
         Me.VBLTButton.UseVisualStyleBackColor = True
@@ -85,18 +86,28 @@ Partial Class DinerMenuForm
         Me.menuLabel.TabIndex = 6
         Me.menuLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'DinerMenu
+        'exitButton
+        '
+        Me.exitButton.Location = New System.Drawing.Point(713, 378)
+        Me.exitButton.Name = "exitButton"
+        Me.exitButton.Size = New System.Drawing.Size(75, 60)
+        Me.exitButton.TabIndex = 7
+        Me.exitButton.Text = "Exit"
+        Me.exitButton.UseVisualStyleBackColor = True
+        '
+        'DinerMenuForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.exitButton)
+        Me.Controls.Add(Me.VBLTButton)
         Me.Controls.Add(Me.menuLabel)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.VBLTButton)
         Me.Controls.Add(Me.CompileTunaButton)
         Me.Controls.Add(Me.TheVisualBasicButton)
         Me.Controls.Add(Me.LateNightButton)
-        Me.Name = "DinerMenu"
+        Me.Name = "DinerMenuForm"
         Me.Text = "VB's Subs"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -109,4 +120,5 @@ Partial Class DinerMenuForm
     Friend WithEvents VBLTButton As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents menuLabel As Label
+    Friend WithEvents exitButton As Button
 End Class
