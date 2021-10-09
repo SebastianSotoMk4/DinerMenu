@@ -22,6 +22,7 @@ Partial Class DinerMenuForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DinerMenuForm))
         Me.LateNightButton = New System.Windows.Forms.Button()
         Me.TheVisualBasicButton = New System.Windows.Forms.Button()
         Me.CompileTunaButton = New System.Windows.Forms.Button()
@@ -107,6 +108,7 @@ Partial Class DinerMenuForm
         Me.Controls.Add(Me.CompileTunaButton)
         Me.Controls.Add(Me.TheVisualBasicButton)
         Me.Controls.Add(Me.LateNightButton)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "DinerMenuForm"
         Me.Text = "VB's Subs"
         Me.ResumeLayout(False)
